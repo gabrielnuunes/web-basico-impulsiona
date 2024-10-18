@@ -1,0 +1,32 @@
+/* Esse arquivo aceita somente escrita em CSS
+é nele que colocamos toda a estilização da nossa página.
+Utilizar o CSS externo é bom para manter a organização e a 
+separação de responsabilidade entre os arquivos */
+
+/* Estilizando o nosso HTML */
+
+/* Estilizando o título pricipal da página */
+h1 {
+    /* Altera a cor de fundo */
+    background-color: lightcoral;
+    /* Altera a cor do texto */
+    color: white;
+    /* Coloca a fonte em negrito */
+    font: bold;
+}
+
+/* Estilizando os parágrafos */
+p {
+    /* Altera a cor da fonte */
+    color: darkmagenta;
+    /* Coloca a fonte em itálico */
+    font-style: italic;
+}
+
+/* Estilizando os itens da lista */
+li {
+    color: yellowgreen;
+    font: bold;
+    /* Altera a fonte utilizada */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
