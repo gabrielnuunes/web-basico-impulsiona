@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Displays em CSS</title>
+    <style>
+      .bloco {
+        display: block;
+        background-color: lightblue;
+        padding: 10px;
+        margin: 5px;
+      }
+
+      .inline {
+        display: inline;
+        background-color: yellow;
+        padding: 10px;
+        margin: 5px;
+      }
+
+      .inline-block {
+        display: inline-block;
+        width: 150px;
+        height: 100px;
+        background-color: lightgreen;
+        margin: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bloco">Bloco 1</div>
+    <div class="bloco">Bloco 2</div>
+
+    <span class="inline">Inline 1</span>
+    <span class="inline">Inline 2</span>
+
+    <div class="inline-block">Inline-Block 1</div>
+    <div class="inline-block">Inline-Block 2</div>
+  </body>
+</html>
